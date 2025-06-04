@@ -1,46 +1,70 @@
-# Getting Started with Create React App
+# XRPL EVM Ecosystem Web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, visually organized web dashboard for exploring the XRPL EVM ecosystem. This project displays ecosystem sections (Validators, Providers, dApps, Bridges, Core, Auditors, Wallets, etc.) as interactive cards, each containing relevant project logos and links.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+-   Responsive grid layout for all ecosystem sections
+-   Minimal, dark-themed UI with clear separation between cards
+-   Header with XRPL and Ecosystem branding
+-   Each section card displays project logos in a neat grid
+-   Easily extensible: add new projects by updating the assets and data
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Prerequisites
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+-   Node.js (v16 or newer recommended)
+-   npm or yarn
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm install
+# or
+yarn install
+```
 
-### `npm run build`
+### Running the App
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm start
+# or
+yarn start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The app will be available at `http://localhost:3000` by default.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Building for Production
 
-### `npm run eject`
+```bash
+npm run build
+# or
+yarn build
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Project Structure
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+my-xrplevm-ecosystem/
+  public/
+    assets/           # All SVGs and logo images
+  src/
+    components/       # React components (Header, SectionCard, etc.)
+    App.tsx           # Main app layout
+    App.css           # Main styles
+    ...
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Adding/Editing Ecosystem Projects
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+-   Add new logos to `public/assets/sections/<section>/`.
+-   Update the relevant section data in the code (see `SectionCard.tsx`).
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
+
+[MIT](LICENSE)
