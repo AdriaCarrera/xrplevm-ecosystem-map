@@ -1,0 +1,113 @@
+// Mapping of logo filenames to their respective URLs for the XRPL EVM Ecosystem project.
+// Add or update entries as needed to ensure each logo links to the correct project site.
+
+const logoLinks: Record<string, string> = {
+  // Wallets
+  'metamask.png': 'https://metamask.io/',
+  'keplr.png': 'https://www.keplr.app/',
+  'crossmark.png': 'https://crossmark.io',
+  'cosmostation.png': 'https://snapshot.cosmostation.io/xrpl-evm/',
+  'palmerafinance.png': 'https://app.palmeradao.xyz/create',
+  'ibc.png': 'https://ibcprotocol.dev/',
+  'strobe.png': 'https://strobe.finance/',
+  'elys-logo-white-medium-size 1.png': 'https://testnet.elys.network/',
+  'axelar.png': 'https://www.axelar.network/',
+  'axelarscan.png': 'https://testnet.axelarscan.io/gmp/search',
+  'squid.png': 'https://testnet.xrpl.squidrouter.com/',
+  'skip.png': 'https://go.skip.build/',
+  // Faucets & Explorers
+  'faucet.png': 'https://faucet.xrplevm.org',
+  'exploreme.png': 'https://xrpl.exploreme.pro/',
+  'cosmos.png': 'https://cosmos.network/',
+  'xrplnames.png': 'https://xrplnames.xyz/',
+  'goldsky.png': 'https://goldsky.com/',
+  'capsign.png': 'https://capsign.com',
+  'easya.png': 'https://easya.io/',
+  'moai.png': 'https://xrplevm.moai-finance.xyz/swap',
+  'vertex.png': 'https://app.vertexprotocol.com/markets',
+  'moremarkets.png': 'https://moremarkets.xyz',
+  'palmeradao.png': 'https://app.palmeradao.xyz/create',
+  'riddle.png': 'https://rddl.fun/',
+  'walkit.png': 'https://www.walkitapp.com/',
+  'hammyfinance.png': 'https://hammy.finance/',
+  'skuuy.png': 'https://skuuy.com/deploy',
+  'awpswap.png': 'https://app.awpswap.io/',
+  'zns.png': 'https://www.znsconnect.io/',
+  'znsbio.png': 'https://zns.bio/',
+  // Validators/Providers
+  'blockitize.png': 'https://services.blockitize.com/?project=xrplevm',
+  'cumulo.png': 'https://cumulo.pro/services/xrplevm/',
+  'lesnik utsa.png': 'https://exp.utsa.tech/xrpl-testnet/staking',
+  'mekonglabs.png': 'https://testnet.mekonglabs.tech/xrpl/staking',
+  'mictonode.png': 'https://explorer.mictonode.com/XRPL-Testnet/staking/',
+  'polkachu.png': 'https://polkachu.com/testnets/xrp',
+  'enigma.png': 'https://xrp-rpc.enigma-validator.com/',
+  'corenode.png': 'https://explorer.corenodehq.xyz/xrplevm-devnet/staking',
+  'nodestake.png': 'https://explorer.nodestake.org/xrp-testnet',
+  'stavr.png': 'https://explorer.stavr.tech/Xrpl-Testnet/staking',
+  'cosmonaut.png': 'https://xrpl-testnet-rpc.cosmonautstakes.com',
+  'kgnodes.png': 'https://explorer.kgnodes.xyz/Xrpl-Testnet',
+  'bonynode.png': 'https://explorer.bonynode.online/xrpl',
+  'hibunode.png': 'https://explorer.hibunode.com/xrplevm',
+  'monkeylabs.png': 'https://explorer.monkeylabs.me/Xrpl-Testnet/staking',
+  'hazennetworksolutions.png': 'https://explorer.hazennetworksolutions.com/xrplevm-testnet',
+  'brightlystake.png': 'https://xrpl-t-evm.brightlystake.com/',
+  'informalsystems.png': 'https://informal.systems/',
+  // Oracles
+  'bandprotocol.png': 'https://www.bandprotocol.com/',
+  // Misc
+  'xrplcommons.png': 'https://xrplcommons.org',
+  'xrise33.png': 'https://xrise33.com',
+  'grove.png': 'https://docs.grove.city/xrpl-api/intro',
+  'imperator.png': 'https://www.imperator.co/services/chain-services/testnets/xrp',
+  'itrocket.png': 'https://itrocket.net/services/testnet/xrplevm/',
+  'dongqn.png': 'https://rpc.testnet.xrplevm.dongqn.com',
+  'rpcdot.png': 'https://explorer.rpcdot.com/xrplevm-testnet',
+  'node9x.png': 'https://explorer.node9x.com/XRLP',
+  'luckystar.png': 'https://explorer.luckystar.asia/xrpl-Testnet',
+  'xrplmetamasksnap.png': 'https://wallet.xrplevm.org',
+  'zstake.png': 'https://explorer.zstake.xyz/exrp',
+  // --- Missing links, fill as needed ---
+  // Auditors
+  'bishopfox.png': 'https://ripple.com/reports/Ripple-Side-Chains-Assessment-Report-XRPL.pdf',
+  'certik.png': 'https://drive.google.com/file/d/1X8wCfIXolZMqQ4KfRl03vpgPx2v6GB8c/view',
+  'fyeo.png': 'https://drive.google.com/file/d/16R3XBCQ-FhFEQQevwRNlnUUE0e_GsuSe/view',
+  'nccgroup.png': 'https://drive.google.com/file/d/1rtCe9etAZAOn61AIo2m6-ExcKUHK5THP/view',
+  // Core
+  'commonprefix.png': 'https://www.commonprefix.com/',
+  'peersyst.png': 'https://peersyst.com/',
+  'ripple.png': 'https://ripple.com/',
+  // dApps
+  'fomobiz.png': 'https://fomo.biz/',
+  'gas.zip.png': 'https://www.gas.zip/',
+  'injective.png': 'https://injective.com/',
+  'mars.png': 'https://marsgate.xyz/',
+  'nexusdao.png': 'https://nexus.dao.ai/',
+  'nexusdapp.png': 'https://www.thenexusportal.io/',
+  'nfts2me.png': 'https://nfts2me.com/',
+  'onchaingm.png': 'https://onchaingm.com/',
+  'purplemarkets.png': 'https://www.purple-trading.com/',
+  'securd.png': 'https://www.securd.org/',
+  // Explorers
+  'blockscout.png': 'https://explorer.xrplevm.org/',
+  'forbole_bigd 1.png': 'https://governance.xrplevm.org/',
+  // Providers
+  'xss.png': 'https://services.xsslabs.tech/xrpl-evm/installation',
+  // Validators
+  'bkgeomatics.png': 'https://bkxrplevm.com/',
+  'cryptosurvivor.png': 'https://governance.xrplevm.org/xrplevm/validators/ethmvaloper149nrrm3qzjl9mg5av9gnle9qrmzrrsxysk6p82',
+  'flowdesk.png': 'https://www.flowdesk.co/',
+  'interchainlabs.png': 'https://interchain.io/',
+  'kingnodes.png': 'https://www.kingnodes.com/',
+  'kintsugi.png': 'https://kintsugi.tech/',
+  'linkpool.png': 'https://linkpool.com/',
+  'nexus.png': 'https://www.thenexusportal.io/',
+  'rhino.png': 'https://rhinostake.com/',
+  'sg1.png': 'https://sg-1.online/',
+  'xtoadz.png': 'https://toadzpad.com/',
+  // Wallets
+  'leap.png': 'https://www.leapwallet.io/',
+  // Add more as needed
+};
+
+export default logoLinks;

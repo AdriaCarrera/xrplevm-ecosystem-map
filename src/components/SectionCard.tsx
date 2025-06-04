@@ -1,5 +1,6 @@
 import React from "react";
 import "./SectionCard.css";
+import logoLinks from "./logoLinks";
 
 interface SectionCardProps {
   title: string;
@@ -28,15 +29,27 @@ const SectionCard: React.FC<SectionCardProps> = ({ title, logos }) => {
     <div className={`section-card ${cssKey}`}>
       <div className="section-title">{title}</div>
       <div className="logo-grid">
-        {logos.map((filename, idx) => (
-          <div className="logo-wrapper" key={idx}>
+        {logos.map((filename, idx) => {
+          const link = logoLinks[filename];
+          const imgElement = (
             <img
               src={`/assets/sections/${sectionFolder}/${filename}`}
               alt={filename}
               className="logo-image"
             />
-          </div>
-        ))}
+          );
+          return (
+            <div className="logo-wrapper" key={idx}>
+              {link ? (
+                <a href={link} target="_blank" rel="noopener noreferrer">
+                  {imgElement}
+                </a>
+              ) : (
+                imgElement
+              )}
+            </div>
+          );
+        })}
       </div>
     </div>
   );
