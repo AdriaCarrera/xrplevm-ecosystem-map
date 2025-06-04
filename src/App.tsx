@@ -125,7 +125,6 @@ const SECTIONS: {
       "monkeylabs.png",
       "node9x.png",
       "nodestake.png",
-      "range.png",
       "rpcdot.png",
       "stavr.png",
     ],

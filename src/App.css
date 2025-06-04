@@ -51,6 +51,9 @@
     flex-direction: column;
     gap: 20px;
     padding: 16px 4vw;
+    overflow-x: hidden;
+    width: 100vw;
+    box-sizing: border-box;
   }
 }
 
@@ -101,17 +104,24 @@
     flex-direction: column;
     gap: 20px;
     padding: 16px 4vw;
+    overflow-x: hidden;
+    width: 100vw;
+    box-sizing: border-box;
   }
   .header-grid-item {
     grid-column: 1 / -1;
     grid-row: 1;
     margin-right: 0;
-    margin-bottom: 2.5vw;
+    margin-bottom: 40vw; /* Add more space below header on mobile */
     width: 100%;
   }
   .cards-layout > [class^="section-"] {
     grid-column: 1 / -1;
     margin-left: 0;
+    margin-top: 2.5vw; /* Add space above first card on mobile */
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-x: auto;
   }
 }
 
@@ -159,13 +169,19 @@
 
 /* Bridges (bottom left) */
 .cards-layout > .section-Bridges {
-  grid-column: 1 / span 4;
+  grid-column: 1 / span 2;
+  grid-row: 4;
+}
+
+/* Explorers (bottom left) */
+.cards-layout > .section-Explorers {
+  grid-column: 6 / span 5;
   grid-row: 4;
 }
 
 /* Wallets (bottom right) */
 .cards-layout > .section-Wallets {
-  grid-column: 8 / span 5;
+  grid-column: 3 / span 3;
   grid-row: 4;
 }
 
@@ -218,6 +234,8 @@
     height: auto;
     min-height: 0;
     padding: 8px 0;
+    box-sizing: border-box;
+    overflow-x: auto;
   }
 }
 
