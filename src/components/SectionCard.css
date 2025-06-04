@@ -1,0 +1,71 @@
+/* The outer card background */
+.section-card {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  min-width: 180px;
+  min-height: 100px;
+  box-sizing: border-box;
+  width: 240px;
+  transition: width 0.2s;
+}
+
+/* Section title (e.g. “Validators”, “Providers”) */
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+/* Grid of logos inside each card */
+.logo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(48px, 1fr));
+  justify-content: center;
+  gap: 12px;
+}
+
+/* Each logo wrapper ensures a square bounding box */
+.logo-wrapper {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Images should not exceed their wrapper */
+.logo-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Responsive card sizing based on logo count */
+.section-card.section-Validators,
+.section-card.section-Providers,
+.section-card.section-dApps {
+  width: 420px;
+}
+.section-card.section-Explorers {
+  width: 320px;
+}
+.section-card.section-Core,
+.section-card.section-Auditors,
+.section-card.section-Bridges {
+  width: 220px;
+}
+.section-card.section-Wallets {
+  width: 180px;
+}
+
+@media (max-width: 900px) {
+  .section-card {
+    width: 98vw !important;
+    min-width: 0;
+  }
+}
