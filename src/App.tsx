@@ -180,11 +180,12 @@ function App() {
       {/* Two diagonal neon brand‐lines (one purple on left, one green on right) */}
       <BrandLines />
 
-      {/* Header: XRPL EVM SIDECHAIN logo on top + “ECOSYSTEM” SVG below it */}
-      <Header />
-
-      {/* The grid that holds all of the “cards” */}
+      {/* The grid that holds the header and all of the “cards” */}
       <div className="cards-layout">
+        {/* Header: XRPL EVM SIDECHAIN logo on top + “ECOSYSTEM” SVG below it, as part of the grid */}
+        <div className="header-grid-item">
+          <Header />
+        </div>
         {SECTIONS.map((sec) => (
           <SectionCard key={sec.title} title={sec.title} logos={sec.logos} />
         ))}
