@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import BrandLines from "./components/BrandLines";
 import Header from "./components/Header";
@@ -174,6 +174,20 @@ const SECTIONS: {
 ];
 
 function App() {
+  const [showFooter, setShowFooter] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 10) {
+        setShowFooter(true);
+      } else {
+        setShowFooter(false);
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <div className="App">
       {/* Two diagonal neon brand‐lines (one purple on left, one green on right) */}
@@ -189,6 +203,14 @@ function App() {
           <SectionCard key={sec.title} title={sec.title} logos={sec.logos} />
         ))}
       </div>
+      <footer className={`app-footer${showFooter ? ' visible' : ' hidden'}`}>
+        <div>
+          <a href="https://airtable.com/appDFL9N9MDWj0Ywd/shrl5nsqAhtghUN8I" target="_blank" rel="noopener noreferrer">Submit your project!</a>
+        </div>
+        <div style={{marginTop: 8}}>
+          Follow <a href="https://x.com/Peersyst" target="_blank" rel="noopener noreferrer">Peersyst</a> on 𝕏
+        </div>
+      </footer>
     </div>
   );
 }

@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
 }
+/* Import Work Sans font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
 
 /* Full‐screen black background */
 .App {
@@ -13,7 +15,13 @@
   width: 100%;
   position: relative;
   z-index: 0;
-  font-family: "Segoe UI", Roboto, sans-serif;
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* Ensure body and root take at least full viewport height */
+body, #root {
+  min-height: 100vh;
+  background: #000;
 }
 
 /* HEADER GRID LAYOUT */
@@ -284,4 +292,46 @@
   height: 100vh;
   z-index: 0;
   pointer-events: none;
+}
+
+/* FOOTER STYLES */
+.app-footer {
+  width: 100%;
+  background: #181818;
+  color: #fff;
+  text-align: center;
+  padding: 24px 0 16px 0;
+  font-size: 0.8rem;
+  border-top: 1px solid #232323;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  box-shadow: 0 -2px 16px 0 rgba(0,0,0,0.12);
+}
+
+.app-footer a {
+  color: #fff;
+  text-decoration: underline;
+  transition: color 0.15s;
+}
+
+.app-footer a:hover {
+  color: #7919FF;
+}
+
+.app-footer.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s cubic-bezier(0.4,0,0.2,1);
+}
+.app-footer.visible {
+  opacity: 1;
+  pointer-events: auto;
+  transition: opacity 0.3s cubic-bezier(0.4,0,0.2,1);
+}
+
+/* Prevent content from being hidden behind the fixed footer */
+.cards-layout {
+  padding-bottom: 90px; /* Adjusted padding to accommodate footer */
 }
