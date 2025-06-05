@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 
-const XRPL_LOGO = "/assets/xrplevm_logos.svg";
+const XRPL_LOGO = "/assets/XRPLEVM_FullWhiteLogo.svg";
 const ECOSYSTEM_SVG = "/assets/ECOSYSTEM.svg";
 
 const Header: React.FC = () => {
