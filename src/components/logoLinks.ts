@@ -14,7 +14,7 @@ const logoLinks: Record<string, string> = {
   'axelar.png': 'https://www.axelar.network/',
   'axelarscan.png': 'https://testnet.axelarscan.io/gmp/search',
   'squid.png': 'https://testnet.xrpl.squidrouter.com/',
-  'skip.png': 'https://go.skip.build/',
+  'skip.png': 'https://testnet.go.skip.build/',
   // Faucets & Explorers
   'faucet.png': 'https://faucet.xrplevm.org',
   'exploreme.png': 'https://xrpl.exploreme.pro/',
@@ -98,6 +98,7 @@ const logoLinks: Record<string, string> = {
   'bkgeomatics.png': 'https://bkxrplevm.com/',
   'cryptosurvivor.png': 'https://governance.xrplevm.org/xrplevm/validators/ethmvaloper149nrrm3qzjl9mg5av9gnle9qrmzrrsxysk6p82',
   'flowdesk.png': 'https://www.flowdesk.co/',
+  'sbi.png': 'https://defimans.com/en/',
   'interchainlabs.png': 'https://interchain.io/',
   'kingnodes.png': 'https://www.kingnodes.com/',
   'kintsugi.png': 'https://kintsugi.tech/',

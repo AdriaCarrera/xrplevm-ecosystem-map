@@ -78,6 +78,7 @@ const SECTIONS: {
     logos: [
       "bkgeomatics.png",
       "blockscout.png",
+      "sbi.png",
       "cosmostation.png",
       "cryptosurvivor.png",
       "cumulo.png",
