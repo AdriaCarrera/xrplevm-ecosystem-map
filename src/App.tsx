@@ -15,34 +15,25 @@ const SECTIONS: {
   logos: string[];
 }[] = [
   {
-    title: "Explorers",
+    title: "Wallets",
     logos: [
-      "blockscout.png",
-      "forbole_bigd 1.png",
-      "axelarscan.png",
-      "exploreme.png",
-      "range.png",
-      "bonynode.png",
-      "corenode.png",
-      "kgnodes.png",
-      "lesnik utsa.png",
-      "luckystar.png",
-      "mekonglabs.png",
-      "mictonode.png",
-      "monkeylabs.png",
-      "node9x.png",
-      "nodestake.png",
-      "rpcdot.png",
-      "stavr.png",
+      "metamask.png",
+      "keplr.png",
+      "xrplmetamasksnap.png",
+      "crossmark.png",
+      "leap.png",
+      "cosmostation.png",
+      "palmerafinance.png",
     ],
   },
   {
-    title: "Oracles",
-    logos: ["bandprotocol.png"],
-  },
-  {
-    title: "Indexers",
-    logos: ["goldsky.png"],
+    title: "Bridges",
+    logos: [
+      "axelar.png",
+      "ibc.png",
+      "squid.png",
+      "skip.png",
+    ],
   },
   {
     title: "dApps",
@@ -72,6 +63,36 @@ const SECTIONS: {
       "nfts2me.png",
       "xaodao.jpg",
       "capsign.png",
+    ],
+  },
+  {
+    title: "Oracles",
+    logos: ["bandprotocol.png"],
+  },
+  {
+    title: "Indexers",
+    logos: ["goldsky.png"],
+  },
+  {
+    title: "Explorers",
+    logos: [
+      "blockscout.png",
+      "forbole_bigd 1.png",
+      "axelarscan.png",
+      "exploreme.png",
+      "range.png",
+      "bonynode.png",
+      "corenode.png",
+      "kgnodes.png",
+      "lesnik utsa.png",
+      "luckystar.png",
+      "mekonglabs.png",
+      "mictonode.png",
+      "monkeylabs.png",
+      "node9x.png",
+      "nodestake.png",
+      "rpcdot.png",
+      "stavr.png",
     ],
   },
   {
@@ -106,6 +127,27 @@ const SECTIONS: {
     ],
   },
   {
+    title: "Core",
+    logos: [
+      "peersyst.png",
+      "ripple.png",
+      "cosmos.png",
+      "axelar.png",
+      "commonprefix.png",
+      "xrplcommons.png",
+    ],
+  },
+  {
+    title: "Auditors",
+    logos: [
+      "bishopfox.png",
+      "certik.png",
+      "fyeo.png",
+      "informalsystems.png",
+      "nccgroup.png",
+    ],
+  },
+  {
     title: "Providers",
     logos: [
       "grove.png",
@@ -130,49 +172,6 @@ const SECTIONS: {
       "nodestake.png",
       "rpcdot.png",
       "stavr.png",
-    ],
-  },
-  {
-    title: "Bridges",
-    logos: [
-      "axelar.png",
-      "ibc.png",
-      "squid.png",
-      "skip.png",
-    ],
-  },
-  {
-    title: "Core",
-    logos: [
-      "peersyst.png",
-      "ripple.png",
-      "cosmos.png",
-      "axelar.png",
-      "commonprefix.png",
-      "xrplcommons.png",
-    ],
-  },
-  {
-    title: "Auditors",
-    logos: [
-      "bishopfox.png",
-      "certik.png",
-      "fyeo.png",
-      "informalsystems.png",
-      "nccgroup.png",
-    ],
-  },
-  {
-    title: "Wallets",
-    logos: [
-      "metamask.png",
-      "keplr.png",
-      "xrplmetamasksnap.png",
-      "crossmark.png",
-      "leap.png",
-      "cosmostation.png",
-      "palmerafinance.png",
-      
     ],
   },
 ];
