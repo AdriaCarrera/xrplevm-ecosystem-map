@@ -100,7 +100,7 @@ my-xrplevm-ecosystem/
 ### Installation
 
 ```bash
-git clone https://github.com/peersyst/xrplevm-ecosystem-web.git
+git clone https://github.com/vriveraPeersyst/xrplevm-ecosystem-web.git
 cd my-xrplevm-ecosystem
 npm install
 # or
