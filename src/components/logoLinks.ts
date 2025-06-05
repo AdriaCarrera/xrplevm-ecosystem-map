@@ -53,6 +53,7 @@ const logoLinks: Record<string, string> = {
   'hazennetworksolutions.png': 'https://explorer.hazennetworksolutions.com/xrplevm-testnet',
   'brightlystake.png': 'https://xrpl-t-evm.brightlystake.com/',
   'informalsystems.png': 'https://informal.systems/',
+  'range.png': 'https://app.range.org/xrpl/general',
   // Oracles
   'bandprotocol.png': 'https://www.bandprotocol.com/',
   // Misc

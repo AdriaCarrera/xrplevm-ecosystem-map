@@ -310,6 +310,20 @@ body, #root {
   box-shadow: 0 -2px 16px 0 rgba(0,0,0,0.12);
 }
 
+.app-footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10vw;
+}
+
+.app-footer-content > div {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
 .app-footer a {
   color: #fff;
   text-decoration: underline;
@@ -334,4 +348,11 @@ body, #root {
 /* Prevent content from being hidden behind the fixed footer */
 .cards-layout {
   padding-bottom: 90px; /* Adjusted padding to accommodate footer */
+}
+
+@media (max-width: 600px) {
+  .app-footer-content {
+    flex-direction: column;
+    gap: 8px;
+  }
 }

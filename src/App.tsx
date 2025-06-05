@@ -204,11 +204,16 @@ function App() {
         ))}
       </div>
       <footer className={`app-footer${showFooter ? ' visible' : ' hidden'}`}>
-        <div>
-          <a href="https://airtable.com/appDFL9N9MDWj0Ywd/shrl5nsqAhtghUN8I" target="_blank" rel="noopener noreferrer">Submit your project!</a>
-        </div>
-        <div style={{marginTop: 8}}>
-          Follow <a href="https://x.com/Peersyst" target="_blank" rel="noopener noreferrer">Peersyst</a> on 𝕏
+        <div className="app-footer-content">
+          <div>
+            <a href="https://airtable.com/appDFL9N9MDWj0Ywd/shrl5nsqAhtghUN8I" target="_blank" rel="noopener noreferrer">Submit your project!</a>
+          </div>
+          <div>
+            Follow&nbsp;<a href="https://x.com/intent/follow?screen_name=Peersyst" target="_blank" rel="noopener noreferrer">Peersyst</a>&nbsp;on&nbsp;𝕏
+          </div>
+          <div>
+            Join&nbsp;<a href="https://discord.gg/xrplevm" target="_blank" rel="noopener noreferrer">Discord</a>
+          </div>
         </div>
       </footer>
     </div>
