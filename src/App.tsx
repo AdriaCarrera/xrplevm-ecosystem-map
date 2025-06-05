@@ -22,7 +22,7 @@ const SECTIONS: {
       "xrplmetamasksnap.png",
       "crossmark.png",
       "leap.png",
-      "cosmostation.png",
+      "cosmostationwallet.png",
       "palmerafinance.png",
     ],
   },
