@@ -89,6 +89,7 @@ const logoLinks: Record<string, string> = {
   'onchaingm.png': 'https://onchaingm.com/',
   'purplemarkets.png': 'https://www.purple-trading.com/',
   'securd.png': 'https://www.securd.org/',
+  'xaodao.jpg': 'https://www.xaodao.io',
   // Explorers
   'blockscout.png': 'https://explorer.xrplevm.org/',
   'forbole_bigd 1.png': 'https://governance.xrplevm.org/',
