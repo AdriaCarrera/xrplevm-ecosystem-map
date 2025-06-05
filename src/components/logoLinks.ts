@@ -73,7 +73,9 @@ const logoLinks: Record<string, string> = {
   'bishopfox.png': 'https://ripple.com/reports/Ripple-Side-Chains-Assessment-Report-XRPL.pdf',
   'certik.png': 'https://drive.google.com/file/d/1X8wCfIXolZMqQ4KfRl03vpgPx2v6GB8c/view',
   'fyeo.png': 'https://drive.google.com/file/d/16R3XBCQ-FhFEQQevwRNlnUUE0e_GsuSe/view',
-  'nccgroup.png': 'https://drive.google.com/file/d/1rtCe9etAZAOn61AIo2m6-ExcKUHK5THP/view',
+  'nccgroup1.png': 'https://drive.google.com/file/d/1CT-TObFviDNYyvXQ2RqXWqom_d7G07-6/view',
+  'nccgroup2.png': 'https://drive.google.com/file/d/1rtCe9etAZAOn61AIo2m6-ExcKUHK5THP/view',
+  'nccgroup3.png': 'https://drive.google.com/file/d/14fhn4yYoTpYsdfXLjOfdMPiu2TmsWb2a/view',
   // Core
   'commonprefix.png': 'https://www.commonprefix.com/',
   'peersyst.png': 'https://peersyst.com/',

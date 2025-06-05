@@ -144,7 +144,9 @@ const SECTIONS: {
       "certik.png",
       "fyeo.png",
       "informalsystems.png",
-      "nccgroup.png",
+      "nccgroup1.png",
+      "nccgroup2.png",
+      "nccgroup3.png",
     ],
   },
   {
