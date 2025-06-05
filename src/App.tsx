@@ -17,11 +17,11 @@ const SECTIONS: {
   {
     title: "Explorers",
     logos: [
-      "axelarscan.png",
       "blockscout.png",
       "forbole_bigd 1.png",
-      "range.png",
+      "axelarscan.png",
       "exploreme.png",
+      "range.png",
       "bonynode.png",
       "corenode.png",
       "kgnodes.png",
@@ -175,18 +175,23 @@ const SECTIONS: {
 ];
 
 function App() {
-  const [showFooter, setShowFooter] = useState(false);
+  const [showFooter, setShowFooter] = useState(true);
 
+  // Track if user is scrolling
   useEffect(() => {
+    let timeout: NodeJS.Timeout;
     const handleScroll = () => {
-      if (window.scrollY > 10) {
+      setShowFooter(false);
+      clearTimeout(timeout);
+      timeout = setTimeout(() => {
         setShowFooter(true);
-      } else {
-        setShowFooter(false);
-      }
+      }, 500); // Show footer 500ms after scroll stops
     };
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      clearTimeout(timeout);
+    };
   }, []);
 
   return (

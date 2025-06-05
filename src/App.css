@@ -300,10 +300,10 @@ body, #root {
   background: #181818;
   color: #fff;
   text-align: center;
-  padding: 24px 0 16px 0;
-  font-size: 0.8rem;
+  padding: 2vw 0 2vw 0;
+  font-size: 0.9rem;
   border-top: 1px solid #232323;
-  position: fixed;
+  position: fixed; /* changed from sticky to fixed */
   left: 0;
   bottom: 0;
   z-index: 100;
@@ -347,7 +347,7 @@ body, #root {
 
 /* Prevent content from being hidden behind the fixed footer */
 .cards-layout {
-  padding-bottom: 90px; /* Adjusted padding to accommodate footer */
+  padding-bottom: 90px; /* restore this line */
 }
 
 @media (max-width: 600px) {
