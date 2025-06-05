@@ -1,11 +1,10 @@
 .header-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
-  padding-top: 40px;
-  padding-left: 40px;
   position: absolute;
+  margin-top: 2vw;
   top: 0;
   left: 0;
   z-index: 2;
@@ -28,7 +27,7 @@
 
 .ecosystem-svg {
   max-width: 100%;
-  max-height: 64px;
+  max-height: 75px;
   width: auto;
   height: auto;
   object-fit: contain;
@@ -36,5 +35,5 @@
   margin-left: 0;
   margin-right: 0;
   margin-top: 24px;
-  align-self: flex-start;
+  align-self: center;
 }
