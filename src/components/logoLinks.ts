@@ -6,7 +6,7 @@ const logoLinks: Record<string, string> = {
   'metamask.png': 'https://metamask.io/',
   'keplr.png': 'https://www.keplr.app/',
   'crossmark.png': 'https://crossmark.io',
-  'cosmostation.png': 'https://snapshot.cosmostation.io/xrpl-evm/',
+  'cosmostationwallet.png': 'https://www.cosmostation.io/',
   'palmerafinance.png': 'https://app.palmeradao.xyz/create',
   'ibc.png': 'https://ibcprotocol.dev/',
   'strobe.png': 'https://strobe.finance/',
