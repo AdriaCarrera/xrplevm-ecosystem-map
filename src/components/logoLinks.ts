@@ -42,6 +42,7 @@ const logoLinks: Record<string, string> = {
   'lesnik utsa.png': 'https://exp.utsa.tech/xrpl-testnet/staking',
   'mekonglabs.png': 'https://testnet.mekonglabs.tech/xrpl/staking',
   'mictonode.png': 'https://explorer.mictonode.com/XRPL-Testnet/staking/',
+  'nodeshubprovider.png': 'https://services.nodeshub.online/testnet/xrpl',
   'polkachu.png': 'https://polkachu.com/testnets/xrp',
   'enigma.png': 'https://xrp-rpc.enigma-validator.com/',
   'corenode.png': 'https://explorer.corenodehq.xyz/xrplevm-devnet/staking',
@@ -97,6 +98,7 @@ const logoLinks: Record<string, string> = {
   // Explorers
   'blockscout.png': 'https://explorer.xrplevm.org/',
   'forbole_bigd 1.png': 'https://governance.xrplevm.org/',
+  'nodeshubexplorer.png': 'https://testnet.explorer.nodeshub.online/xrpl',
   // Providers
   'xss.png': 'https://services.xsslabs.tech/xrpl-evm/installation',
   // Validators
