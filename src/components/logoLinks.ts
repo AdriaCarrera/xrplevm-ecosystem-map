@@ -37,6 +37,7 @@ const logoLinks: Record<string, string> = {
   // Validators/Providers
   'blockitize.png': 'https://services.blockitize.com/?project=xrplevm',
   'endorphinestake.png': 'https://endorphinestake.com/',
+  'unitynodes.png': 'https://unitynodes.gitbook.io/unity-nodes/testnet-network/xrpl-evm',
   'cumulo.png': 'https://cumulo.pro/services/xrplevm/',
   'lesnik utsa.png': 'https://exp.utsa.tech/xrpl-testnet/staking',
   'mekonglabs.png': 'https://testnet.mekonglabs.tech/xrpl/staking',

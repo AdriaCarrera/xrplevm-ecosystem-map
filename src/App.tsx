@@ -161,6 +161,7 @@ const SECTIONS: {
       "blockitize.png",
       "cosmostation.png",
       "endorphinestake.png",
+      "unitynodes.png",
       "bonynode.png",
       "brightlystake.png",
       "corenode.png",
