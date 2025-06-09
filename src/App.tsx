@@ -171,6 +171,7 @@ const SECTIONS: {
       "bonynode.png",
       "brightlystake.png",
       "hazennetwork.png",
+      "hightower.png",
       "corenode.png",
       "cosmonaut.png",
       "dongqn.png",

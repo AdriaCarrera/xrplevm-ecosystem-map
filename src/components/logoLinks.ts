@@ -56,6 +56,7 @@ const logoLinks: Record<string, string> = {
   'monkeylabs.png': 'https://explorer.monkeylabs.me/Xrpl-Testnet/staking',
   'hazennetwork.png': 'https://explorer.hazennetworksolutions.com/xrplevm-testnet',
   'hazennetworkexplorer.png': 'https://explorer.hazennetworksolutions.com/xrplevm-testnet',
+  'hightower.png': 'https://htw.tech/',
   'brightlystake.png': 'https://xrpl-t-evm.brightlystake.com/',
   'informalsystems.png': 'https://informal.systems/',
   'range.png': 'https://app.range.org/xrpl/general',
