@@ -164,6 +164,7 @@ const SECTIONS: {
       "endorphinestake.png",
       "unitynodes.png",
       "nodeshubprovider.png",
+      "noders.png",
       "bonynode.png",
       "brightlystake.png",
       "corenode.png",
