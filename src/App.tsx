@@ -166,6 +166,7 @@ const SECTIONS: {
       "unitynodes.png",
       "nodeshubprovider.png",
       "noders.png",
+      "ibs.png",
       "bonynode.png",
       "brightlystake.png",
       "corenode.png",

@@ -58,6 +58,7 @@ const logoLinks: Record<string, string> = {
   'brightlystake.png': 'https://xrpl-t-evm.brightlystake.com/',
   'informalsystems.png': 'https://informal.systems/',
   'range.png': 'https://app.range.org/xrpl/general',
+  'ibs.png': 'https://xrpl-evm-testnet-api.ibs.team/',
   // Oracles
   'bandprotocol.png': 'https://www.bandprotocol.com/',
   // Misc
