@@ -15,6 +15,7 @@ const logoLinks: Record<string, string> = {
   'axelarscan.png': 'https://testnet.axelarscan.io/gmp/search',
   'squid.png': 'https://testnet.xrpl.squidrouter.com/',
   'skip.png': 'https://testnet.go.skip.build/',
+  'dcent.png': 'https://www.dcentwallet.com/',
   // Faucets & Explorers
   'faucet.png': 'https://faucet.xrplevm.org',
   'exploreme.png': 'https://xrpl.exploreme.pro/',

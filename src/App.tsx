@@ -24,6 +24,7 @@ const SECTIONS: {
       "leap.png",
       "cosmostationwallet.png",
       "palmerafinance.png",
+      "dcent.png",
     ],
   },
   {
