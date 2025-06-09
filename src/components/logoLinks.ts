@@ -101,6 +101,7 @@ const logoLinks: Record<string, string> = {
   'nodeshubexplorer.png': 'https://testnet.explorer.nodeshub.online/xrpl',
   // Providers
   'xss.png': 'https://services.xsslabs.tech/xrpl-evm/installation',
+  
   // Validators
   'bkgeomatics.png': 'https://bkxrplevm.com/',
   'cryptosurvivor.png': 'https://governance.xrplevm.org/xrplevm/validators/ethmvaloper149nrrm3qzjl9mg5av9gnle9qrmzrrsxysk6p82',
