@@ -10,7 +10,7 @@ const logoLinks: Record<string, string> = {
   'palmerafinance.png': 'https://app.palmeradao.xyz/create',
   'ibc.png': 'https://ibcprotocol.dev/',
   'strobe.png': 'https://strobe.finance/',
-  'elys-logo-white-medium-size 1.png': 'https://testnet.elys.network/',
+  'elys.png': 'https://testnet.elys.network/',
   'axelar.png': 'https://www.axelar.network/',
   'axelarscan.png': 'https://testnet.axelarscan.io/gmp/search',
   'squid.png': 'https://testnet.xrpl.squidrouter.com/',

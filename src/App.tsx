@@ -41,7 +41,7 @@ const SECTIONS: {
     title: "dApps",
     logos: [
       "moai.png",
-      "elys-logo-white-medium-size 1.png",
+      "elys.png",
       "easya.png",
       "riddle.png",
       "xrise33.png",
