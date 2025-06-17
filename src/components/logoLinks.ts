@@ -16,9 +16,11 @@ const logoLinks: Record<string, string> = {
   'squid.png': 'https://testnet.xrpl.squidrouter.com/',
   'skip.png': 'https://testnet.go.skip.build/',
   'dcent.png': 'https://www.dcentwallet.com/',
+  'reown.png': 'https://reown.com/',
   // Faucets & Explorers
   'faucet.png': 'https://faucet.xrplevm.org',
   'exploreme.png': 'https://xrpl.exploreme.pro/',
+  'valopers.png': 'https://testnet.xrplevm.valopers.com/',
   'cosmos.png': 'https://cosmos.network/',
   'xrplnames.png': 'https://xrplnames.xyz/',
   'goldsky.png': 'https://goldsky.com/',
@@ -61,6 +63,9 @@ const logoLinks: Record<string, string> = {
   'informalsystems.png': 'https://informal.systems/',
   'range.png': 'https://app.range.org/xrpl/general',
   'ibs.png': 'https://xrpl-evm-testnet-api.ibs.team/',
+  'bitszn.png': 'https://bitszn.com/',
+  'dsrv.png': 'https://dsrv.com/',
+  'posthuman.png': 'https://posthuman.digital/',
   // Oracles
   'bandprotocol.png': 'https://www.bandprotocol.com/',
   // Misc
@@ -99,6 +104,8 @@ const logoLinks: Record<string, string> = {
   'purplemarkets.png': 'https://www.purple-trading.com/',
   'securd.png': 'https://www.securd.org/',
   'xaodao.jpg': 'https://www.xaodao.io',
+  'surgedex.png': 'https://surge.syvlabs.io/',
+  'mintiq-market.png': 'https://mintiq.market/',
   // Explorers
   'blockscout.png': 'https://explorer.xrplevm.org/',
   'forbole_bigd 1.png': 'https://governance.xrplevm.org/',
