@@ -60,6 +60,7 @@ const SECTIONS: {
       "securd.png",
       "strobe.png",
       "vertex.png",
+      "anodex.png",
       "purplemarkets.png",
       "zns.png",
       "mars.png",

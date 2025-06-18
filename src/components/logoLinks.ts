@@ -106,6 +106,7 @@ const logoLinks: Record<string, string> = {
   'xaodao.jpg': 'https://www.xaodao.io',
   'surgedex.png': 'https://surge.syvlabs.io/',
   'mintiq-market.png': 'https://mintiq.market/',
+  'anodex.png': 'https://dex.anodos.finance/',
   // Explorers
   'blockscout.png': 'https://explorer.xrplevm.org/',
   'forbole_bigd 1.png': 'https://governance.xrplevm.org/',
