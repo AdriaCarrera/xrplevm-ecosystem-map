@@ -66,8 +66,18 @@ const logoLinks: Record<string, string> = {
   'bitszn.png': 'https://bitszn.com/',
   'dsrv.png': 'https://dsrv.com/',
   'posthuman.png': 'https://posthuman.digital/',
+  '1xp.png': 'https://gov.1xp.com/',
+  'anam145.png': 'https://www.anamandroid.com/',
+  'blockhunters.png': 'https://blockhunters.org/',
+  'cosmosspaces.png': 'https://www.cosmosspaces.zone/',
+  'stakecito.png': 'https://www.stakecito.com/',
+  'nodevism.png': 'https://www.nodevism.com/',
+  'silknodes.png': 'https://silknodes.io/',
+  'validator247.png': 'https://validator247.com/',
+
   // Oracles
   'bandprotocol.png': 'https://www.bandprotocol.com/',
+  'api3.png': 'https://api3.org/',
   // Misc
   'xrplcommons.png': 'https://xrplcommons.org',
   'xrise33.png': 'https://xrise33.com',
@@ -107,6 +117,13 @@ const logoLinks: Record<string, string> = {
   'surgedex.png': 'https://surge.syvlabs.io/',
   'mintiq-market.png': 'https://mintiq.market/',
   'anodex.png': 'https://dex.anodos.finance/',
+  'chainsatlas.png': 'https://platform.chainsatlas.com/',
+  'hydro.png': 'https://hydro.cosmos.network/',
+  'noble.png': 'https://www.noble.xyz/',
+  'osmosis.png': 'https://www.osmosis.zone/',
+  'stakz.png': 'https://stakz.io/',
+  
+
   // Explorers
   'blockscout.png': 'https://explorer.xrplevm.org/',
   'forbole_bigd 1.png': 'https://governance.xrplevm.org/',
